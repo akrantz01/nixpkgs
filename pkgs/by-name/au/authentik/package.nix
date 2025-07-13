@@ -16,7 +16,7 @@
 }:
 
 let
-  version = "2025.4.1";
+  version = "2025.6.3";
 
   src = fetchFromGitHub {
     owner = "goauthentik";
@@ -45,7 +45,7 @@ let
 
     sourceRoot = "${src.name}/website";
 
-    outputHash = "sha256-AnQpjCoCTzm28Wl/t3YHx0Kl0CuMHL2OgRjRB1Trrsw=";
+    outputHash = "sha256-/LctT+tUj1T+Qwl/D+jtgPE0t88nP/jW+Uip9+1Ft+o=";
     outputHashMode = "recursive";
 
     nativeBuildInputs = [
